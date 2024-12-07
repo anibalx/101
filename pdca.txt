@@ -1,0 +1,27 @@
+PDCA
+é uma metodologia de gestão
+que consiste em um ciclo de quatro etapas
+para melhorar processos e produtos de forma contínua:
+	Plan: Planejar
+	Do: Fazer, executar
+	Check: Checar, verificar, mensurar
+	Act: Agir
+	
+O PDCA
+é também conhecido como: 
+	Círculo/ciclo/roda de Deming,
+	Ciclo de Shewhart,
+	Círculo/ciclo de controle,
+	PDSA (plan-do-study-act). 
+
+foi desenvolvido
+pelo estatístico William Edwards Deming
+em meados de 1939.
+É uma ferramenta versátil
+que pode ser aplicada em qualquer tipo de organização,
+independentemente do tamanho ou setor.
+
+Algumas vantagens do PDCA são: 
+	Viabilizar um processo de melhoria contínua 
+	Melhorar a qualidade de tudo o que a empresa realiza 
+	Garantir que as iniciativas em andamento estejam em conformidade com os objetivos estratégicos estabelecidos 

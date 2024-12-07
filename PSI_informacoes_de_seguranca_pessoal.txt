@@ -1,0 +1,13 @@
+PSI
+informações de segurança pessoal
+são outro tipo de PII
+Essas informações incluem nomes de 
+usuário, 
+senhas e 
+outras informações relacionadas à segurança 
+que os indivíduos usam para acessar informações ou 
+serviços na rede. 
+De acordo com um relatório de 2019 da Verizon, 
+a segunda maneira mais comum 
+de que os atores ameaçadores violaram uma rede 
+foi usando PSI roubado.

@@ -1,0 +1,11 @@
+PHI
+Informações de saúde protegidas
+A comunidade médica cria e 
+mantém registros médicos eletrônicos (EMRs) 
+que contêm PHI. 
+Nos EUA, o tratamento de PHI 
+é regulamentado pela Lei de Responsabilidade e Portabilidade de Seguro Saúde (HIPAA). 
+Na União Europeia, 
+o Regulamento Geral de Proteção de Dados (GDPR) 
+protege uma ampla gama de informações pessoais, 
+incluindo registros de saúde.

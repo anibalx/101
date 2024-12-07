@@ -1,0 +1,40 @@
+Norma ABNT NBR ISO 22313:2020 
+é a diretriz para a elaboração de uma política de continuidade de negócios. 
+Esses padrões são atualizados de tempos em tempos, portanto, as mudanças devem ser monitoradas.
+	É uma declaração concisa e de alto nível da intenção de direcionamento da alta direção para o Sistema de Gestão de Continuidade de negócios (SGCN);
+	É apropriada para a finalidade da organização frente ao seu tamanho, natureza e complexidade, refletindo sua cultura, dependências e ambiente de funcionamento
+	Fornece estrutura para definir objetivos;
+	Inclui compromissos claros para atender requisitos aplicáveis, incluindo obrigações legais e regulamentares;
+	Inclui comprometimento com a melhoria contínua do SGCN.
+
+A política de continuidade de negócios
+deve especificar claramente o escopo e
+os limites do programa de continuidade de negócios da organização, 
+incluindo suas limitações e exclusões. 
+
+Ela deve identificar todas a autoridades e delegações necessárias, 
+incluindo os responsáveis pelo SGCN da organização, 
+além de incluir referências às 
+	normas, 
+	diretrizes, 
+	regulamentos e 
+	políticas que o SGCN deve considerar e cumprir.
+ 
+Uma boa política de continuidade de negócios 
+deve estabelecer um comprometimento de financiamento e 
+o compromisso de exercitar e manter a continuidade de negócios, 
+bem como fazer referências a outras políticas relacionadas.
+
+Caso seja de interesse da organização, 
+poderá ser nomeado um comitê para supervisionar a implementação e 
+o monitoramento contínuo do SGCN. 
+Seus representantes serão nomeados com papéis, responsabilidades e autoridade definidas para:
+	assegurar que o SGCN esteja em conformidade com a política de continuidade de negócios;
+	relatar o desempenho do SGCN à alta direção da organização para análise crítica e como base para melhorias;
+	promover a conscientização sobre a continuidade de negócios através de toda organização;
+	assegurar a eficácia dos procedimentos desenvolvidos para responder a incidentes.
+
+
+
+
+

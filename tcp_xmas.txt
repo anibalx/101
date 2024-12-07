@@ -1,0 +1,10 @@
+Nessa técnica,
+o pacote TCP é enviado com as flags 
+	FIN,
+	PSH e
+	URG
+configuradas. 
+Essa combinação de flags,
+que lembra as luzes de uma árvore de Natal,
+dá origem ao nome "Xmas".
+A resposta do sistema, novamente, indica o estado da porta.

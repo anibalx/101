@@ -1,0 +1,4 @@
+Nesse tipo de varredura,
+o pacote TCP enviado não possui nenhuma flag configurada.
+Ou seja, todas as flags estão em zero.
+A resposta do sistema alvo revela se a porta está aberta ou fechada.

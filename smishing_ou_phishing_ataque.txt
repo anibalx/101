@@ -1,0 +1,5 @@
+Smishing, ou phishing por SMS,
+é um tipo de golpe cibernético
+que consiste em enviar mensagens de texto falsas
+para induzir as vítimas a compartilhar informações pessoais ou
+a baixar malware

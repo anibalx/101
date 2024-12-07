@@ -1,0 +1,15 @@
+SIEM
+Security Information and Event Management System
+sistema de gerenciamento de eventos e informações de segurança
+Base do SOC
+Centro de Operações de Segurança
+são usados para coletar e filtrar dados, detectar e classificar ameaças e analisar e investigar ameaças
+Tecnologias do SOC
+    Coleta, correlação e análise de eventos
+    Monitoramento da segurança
+    Controle de segurança
+    Gerenciamento de logs
+    Avaliação de vulnerabilidade
+    Controle de vulnerabilidades
+    Inteligência de ameaças
+

@@ -1,0 +1,8 @@
+Rich Text
+Um formato de documento 
+que permite aos usuários adicionar recursos visuais e 
+formatação ao texto, como: 
+tamanho da fonte, cor, sublinhado, sombras, itálico, negrito, riscado e destaques.
+Os arquivos RTF são versáteis e 
+podem ser visualizados em várias plataformas. 
+Eles também são facilmente editados, ao contrário dos PDFs

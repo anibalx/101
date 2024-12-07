@@ -1,0 +1,16 @@
+SOAR
+SIEM e orquestração de segurança, automação e resposta
+enfatiza ferramentas de integração e 
+automação de fluxos de trabalho SOC. 
+Ele orquestra muitos processos manuais, 
+como a investigação de alertas de segurança, 
+que exigem apenas intervenção humana quando necessário. 
+Isso libera o pessoal de segurança para lidar com questões mais urgentes e 
+investigação de ponta e remediação de ameaças. 
+A futura adoção de plataformas SOAR sofisticadas retornará as operações SOC e as funções de trabalho.
+	
+    Reunir dados de alarme de cada componente do sistema.
+    Fornecer ferramentas que permitam que os casos sejam pesquisados, avaliados e investigados.
+    Enfatizar a integração como um meio de automatizar fluxos de trabalho complexos de resposta a incidentes que permitem respostas mais rápidas e estratégias de defesa adaptativas.
+    Incluir playbooks predefinidos que permitem a resposta automática a ameaças específicas. Os playbooks podem ser iniciados automaticamente com base em regras predefinidas ou podem ser acionados pelo pessoal de segurança.
+

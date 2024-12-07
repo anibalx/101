@@ -1,0 +1,74 @@
+DRDoS  
+Distributed Reflection Denial of Service.
+Ataque Distribuído de Negação de Serviço por Reflexão.
+É um tipo de ataque cibernético
+que visa sobrecarregar
+um servidor ou 
+rede 
+com um volume massivo de tráfego, 
+tornando-o indisponível para os usuários legítimos.
+
+Como funciona um ataque DRDoS?
+Diferentemente dos ataques DDoS tradicionais, 
+que utilizam uma rede de dispositivos comprometidos 
+para enviar diretamente o tráfego malicioso ao alvo, 
+os ataques DRDoS 
+exploram uma vulnerabilidade em protocolos de rede. 
+O atacante envia pequenas solicitações a diversos servidores na internet, 
+aproveitando-se de protocolos que exigem respostas maiores. 
+Esses servidores, 
+sem saber que estão sendo usados para um ataque, 
+enviam as respostas volumosas diretamente para o alvo, 
+amplificando o efeito do ataque.
+
+Em outras palavras
+o hacker falsifica o endereço IP do alvo e 
+envia uma solicitação para um servidor de terceiros. 
+Este servidor, incapaz de diferenciar entre uma solicitação falsificada e uma legítima, 
+envia sua resposta para o endereço IP do alvo. 
+Como essas respostas são frequentemente maiores do que a solicitação original, 
+isso leva a um aumento significativo no tráfego, 
+potencialmente sobrecarregando os recursos do alvo. 
+
+Em resumo:
+	O atacante 
+		identifica servidores vulneráveis na internet.
+	O atacante 
+		envia pequenas solicitações a esses servidores, solicitando informações ou serviços.
+	Os servidores 
+		respondem com pacotes de dados muito maiores do que as solicitações originais.
+	As respostas 
+		são direcionadas ao alvo, sobrecarregando-o e tornando-o indisponível.
+
+Por que os ataques DRDoS são perigosos?
+	Alta capacidade de destruição: 
+		Um pequeno número de dispositivos comprometidos pode gerar um volume de tráfego muito maior, tornando os ataques DRDoS extremamente eficazes.
+	Dificuldade de rastrear a origem: 
+		A natureza distribuída e refletida dos ataques dificulta a identificação da fonte original.
+	Amplo espectro de alvos: 
+		Qualquer dispositivo conectado à internet pode ser alvo de um ataque DRDoS, desde sites e servidores até redes corporativas e infraestruturas críticas.
+
+Como se proteger de ataques DRDoS?
+	Monitoramento constante: 
+		Implementar sistemas de monitoramento de rede para detectar anomalias no tráfego.
+	Filtros de pacotes: 
+		Utilizar firewalls e sistemas de filtragem de pacotes para bloquear tráfego malicioso.
+	Atualizações de software:
+		Manter todos os sistemas e aplicativos atualizados com as últimas correções de segurança.
+	Soluções DDoS: 
+		Contratar serviços especializados em proteção contra ataques DDoS.
+	Limitação de taxa:
+		Configurar os servidores para limitar a taxa de solicitações recebidas.
+
+Em resumo, 
+os ataques DRDoS 
+representam uma ameaça significativa 
+para a segurança online. 
+Ao compreender como eles funcionam e 
+adotando as medidas de proteção adequadas, 
+é possível minimizar os riscos e 
+garantir a disponibilidade dos seus serviços.
+
+# REFERÊNCIAS
+[What is a DrDoS Attack?](https://threat.media/definition/what-is-a-drdos-attack/)
+[DrDoS attack definition](https://nordvpn.com/pt-br/cybersecurity/glossary/drdos-attack/)

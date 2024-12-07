@@ -1,0 +1,6 @@
+DHCP rogue
+DHCP intruso 
+é um servidor DHCP
+em uma rede de computadores
+que não está sobre o controle administrativo
+dos responsáveis pela rede

@@ -1,0 +1,36 @@
+A NBR 29100:2020
+fornece uma estrutura de alto nível
+para a proteção de dados pessoais (DP)
+dentro de sistemas de tecnologia da informação e de comunicação (TIC).
+Ela é geral em sua natureza e
+coloca os aspectos
+	organizacionais,
+	técnicos e
+	processuais
+em uma estrutura abrangente de privacidade.
+
+Esta Norma fornece uma estrutura de privacidade que:
+	especifica uma terminologia comum de privacidade;
+	especifica os atores e os seus papéis no tratamento de dados pessoais (DP);
+	descreve considerações de salvaguarda de privacidade; e
+	fornece referências para princípios conhecidos de privacidade para tecnologia da informação.
+	
+Esta Norma é aplicável às pessoas naturais e
+organizações envolvidas na 
+	especificação,
+	aquisição,
+	arquitetura,
+	concepção,
+	desenvolvimento,
+	teste,
+	manutenção,
+	administração e
+	operação de sistemas de tecnologia da informação e comunicação ou
+	serviços em que controles de privacidade são necessários para o tratamento de dados pessoais (DP).
+
+O uso desta Norma pode servir como base para iniciativas adicionais de padronização da privacidade, como: 
+	uma arquitetura técnica de referência; 
+	implementação e uso de tecnologias específicas de privacidade e a gestão geral de privacidade; 
+	controles de privacidade para processos de dados terceirizados; 
+	avaliações de risco de privacidade; ou 
+	especificações de engenharia específicas. 

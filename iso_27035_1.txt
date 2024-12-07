@@ -1,0 +1,95 @@
+ISO 27035-1
+Fornece diretrizes 
+para a gestão de incidentes de segurança da informação
+
+O objetivo da ISO/IEC 27035-1
+é estabelecer uma estrutura para gerenciar incidentes de segurança da informação
+de forma eficiente e eficaz, 
+garantindo que as organizações possam responder e 
+se recuperar de incidentes
+minimizando os danos.
+
+Escopo
+	Esta parte da norma 
+	descreve os princípios e processos 
+	para uma gestão eficaz de incidentes de segurança da informação. 
+	Ela fornece a estrutura básica 
+	para implementar um plano de gestão de incidentes, 
+	mas não entra em detalhes específicos ou 
+	procedimentos técnicos (que são abordados em outras partes da série).
+	
+Foco
+	Enfatiza os princípios e diretrizes de alto nível 
+	que as organizações devem adotar para gerenciar incidentes, 
+	incluindo o estabelecimento do contexto dos incidentes, 
+	planejamento, atribuição de responsabilidades e garantia de recursos adequados 
+	para resposta a incidentes.
+
+Componentes Principais da ISO/IEC 27035-1
+	1. Estabelecimento de uma Estrutura de Gestão de Incidentes:
+		As organizações são incentivadas a desenvolver 
+		uma estrutura que defina claramente 
+		os papéis e responsabilidades para a gestão de incidentes.
+		
+		Devem existir políticas e procedimentos 
+		para lidar com incidentes 
+		com base em sua gravidade e impacto.
+		
+		A norma destaca a importância de recursos, 
+		incluindo pessoal qualificado e 
+		ferramentas para detectar, 
+		responder e 
+		analisar incidentes.
+		
+	2. Processo de Tratamento e Resposta a Incidentes:
+		O processo geralmente inclui a detecção, 
+		o relato, 
+		a avaliação, 
+		a resposta, 
+		a recuperação e 
+		o aprendizado de lições. 
+		A norma fornece uma abordagem de alto nível, 
+		em vez de detalhes técnicos.
+
+		As organizações devem ter um processo claro 
+		de escalonamento de incidentes 
+		com base nos níveis de gravidade.
+
+	3. Monitoramento e Melhoria Contínua:
+		A norma enfatiza o monitoramento contínuo e 
+		a melhoria do processo de gestão de incidentes.
+
+		Atividades pós-incidente, 
+		como análise e lições aprendidas, 
+		são cruciais para aprimorar 
+		a capacidade de resposta a incidentes 
+		ao longo do tempo.
+
+	4. Coordenação com Partes Externas:
+		Recomenda-se estabelecer relacionamentos com partes externas, 
+		como provedores de serviços, 
+		reguladores e parceiros, 
+		garantindo coordenação e 
+		suporte quando um incidente ocorre.
+
+Relação com Outras Partes da ISO/IEC 27035
+	ISO/IEC 27035-2: 
+		Foca nas diretrizes para planejar e 
+		se preparar para a resposta a incidentes, 
+		aprofundando-se no design e 
+		na implementação de um plano de gestão de incidentes.
+
+	ISO/IEC 27035-3: 
+		Fornece diretrizes detalhadas 
+		para as atividades de 
+		detecção, avaliação e resposta a incidentes.
+
+	ISO/IEC 27035-4 e 27035-5: 
+		Abordam controles específicos e 
+		a melhoria contínua da capacidade de gestão de incidentes.
+
+Benefícios da Implementação da ISO/IEC 27035-1
+	Fornece uma abordagem estruturada e sistemática para a gestão de incidentes.
+	Ajuda a minimizar o impacto dos incidentes de segurança da informação, garantindo uma resposta oportuna e eficaz.
+	Melhora a capacidade da organização de lidar com incidentes, aprimorando a resiliência geral da segurança da informação.
+

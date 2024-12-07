@@ -1,0 +1,40 @@
+CWE Top 25 de 2023
+ele lista as principais vulnerabilidades e fraquezas de software 
+que afetam a segurança de aplicações, de acordo com o MITRE:
+	CWE Top 25 - 2023
+	CWE-787 - Acesso fora dos limites do buffer (Buffer Overflow)
+	CWE-79 - Cross-Site Scripting (XSS)
+	CWE-89 - Injeção de SQL (SQL Injection)
+	CWE-20 - Validação inadequada de entrada (Improper Input Validation)
+	CWE-125 - Leitura fora dos limites do buffer (Out-of-bounds Read)
+	CWE-78 - Injeção de comandos do sistema operacional (OS Command Injection)
+	CWE-416 - Uso após liberar (Use After Free)
+	CWE-22 - Travessia de diretórios (Path Traversal)
+	CWE-352 - Cross-Site Request Forgery (CSRF)
+	CWE-434 - Upload de arquivos perigosos (Unrestricted Upload of File with Dangerous Type)
+	CWE-502 - Desserialização insegura (Deserialization of Untrusted Data)
+	CWE-190 - Estouro de inteiro (Integer Overflow or Wraparound)
+	CWE-476 - Desreferência de ponteiro nulo (NULL Pointer Dereference)
+	CWE-94 - Injeção de código (Code Injection)
+	CWE-522 - Armazenamento inseguro de credenciais (Insufficiently Protected Credentials)
+	CWE-306 - Ausência de autenticação em função crítica (Missing Authentication for Critical Function)
+	CWE-732 - Permissões incorretas para recursos críticos (Incorrect Permission Assignment for Critical Resource)
+	CWE-269 - Gerenciamento inadequado de privilégios (Improper Privilege Management)
+	CWE-611 - Entidade externa XML (XXE - XML External Entity Injection)
+	CWE-918 - SSRF (Server-Side Request Forgery)
+	CWE-321 - Uso de chave criptográfica fraca ou embutida (Use of Hard-coded Cryptographic Key)
+	CWE-362 - Condições de corrida (Race Condition)
+	CWE-209 - Exposição de informações sensíveis em mensagens de erro (Information Exposure Through an Error Message)
+	CWE-284 - Controle de acesso inadequado (Improper Access Control)
+	CWE-77 - Injeção de comandos (Command Injection)
+
+O CWE Top 25 é uma ferramenta essencial para
+	desenvolvedores,
+	testers e
+	profissionais de cibersegurança,
+pois ajuda a identificar e priorizar atividades de mitigação e testes de segurança. 
+
+Essas CWEs são usadas como base para desenvolver testes automatizados,
+revisar o código-fonte e 
+adotar práticas seguras de desenvolvimento,
+contribuindo para a construção de sistemas mais seguros.

@@ -1,0 +1,7 @@
+Tailgating 
+é uma técnica de engenharia social
+que consiste em uma pessoa não autorizada
+seguir de perto uma pessoa autorizada
+para obter acesso a áreas seguras.
+Também é conhecido como "piggybacking" ou carona. 
+

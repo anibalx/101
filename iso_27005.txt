@@ -1,0 +1,19 @@
+A ISO/IEC 27005 
+é um padrão internacional 
+que fornece diretrizes 
+para gerenciar os riscos de segurança da informação. 
+A norma ajuda a criar um sistema de gerenciamento de segurança da informação eficaz e 
+a identificar as necessidades organizacionais em relação à segurança da informação.
+
+A ISO/IEC 27005:2023 tem como objetivo:
+	Traçar ações para lidar com os riscos de segurança da informação
+	Realizar atividades de gerenciamento na área, como avaliação e tratamento de riscos
+	
+A norma apresenta algumas mudanças em relação à versão anterior, como:
+	Alinhamento com outras normas, como a ISO 27001 e a ISO 31000
+	Atualização da linguagem
+	Reorganização da estrutura das cláusulas
+	Adição de um critério de gatilho
+	Conceito de cenário de risco
+	Descrição de um processo de gerenciamento de riscos com cinco etapas
+	Exclusão da cláusula 10

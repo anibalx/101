@@ -1,0 +1,47 @@
+SOC
+Centro de Operações de Segurança
+oferecem uma ampla gama de serviços, 
+desde monitoramento e gerenciamento 
+até soluções abrangentes de ameaças e segurança hospedada 
+que podem ser personalizadas para atender às necessidades dos clientes. 
+Os SOCs podem ser totalmente internos, 
+de propriedade e operados por uma empresa, 
+ou elementos de um SOC podem ser contratados a fornecedores de segurança.
+
+
+
+    Analista de Alerta de Nível 1 
+    	Esses profissionais monitoram alertas recebidos, 
+	verificam se um incidente verdadeiro ocorreu e 
+	encaminham tickets para o Nível 2, se necessário.
+    
+    Respondente a Incidentes de Nível 2 
+    	Esses profissionais são responsáveis 
+	pela investigação aprofundada de incidentes e 
+	aconselham a correção ou a ação a serem tomadas.
+
+    Caçador de Ameaças de Nível 3 
+    	Esses profissionais possuem habilidades de nível especializado em 
+	rede, endpoint, inteligência contra ameaças e engenharia reversa de malware. 
+	Eles são especialistas em rastrear os processos do malware 
+	para determinar seu impacto e como ele pode ser removido. 
+	Eles também estão profundamente envolvidos na busca de ameaças potenciais e 
+	na implementação de ferramentas de detecção de ameaças. 
+	Os caçadores de ameaças buscam ameaças cibernéticas presentes na rede, mas ainda não foram detectadas.
+
+    Gerente SOC 
+    	Este profissional gerencia todos os recursos do SOC e 
+	serve como ponto de contato para a organização ou cliente maior.
+
+
+Começo:
+	monitoramento de filas de alertas de segurança
+	
+Andamento:
+	Um sistema de emissão de tíquetes é freqüentemente usado para atribuir alertas a uma fila para que um analista investigue
+	verificar se um alerta representa um verdadeiro incidente de segurança
+
+Ação:
+	Verificação for estabelecida
+	incidente pode ser encaminhado aos investigadores ou a outro pessoal de segurança para ser tratado
+

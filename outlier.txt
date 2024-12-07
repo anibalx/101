@@ -1,0 +1,7 @@
+outlier, 
+Em estatística, é o valor aberrante ou valor atípico, 
+é uma observação que apresenta um grande afastamento
+das demais da série, ou 
+que é inconsistente. 
+A existência de outliers implica, tipicamente,
+em prejuízos à interpretação dos resultados dos testes estatísticos aplicados às amostras

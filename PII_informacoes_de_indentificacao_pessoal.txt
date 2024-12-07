@@ -1,0 +1,13 @@
+PII
+Informações de identificação pessoal 
+são todas as informações 
+que podem ser usadas para identificar positivamente um indivíduo. 
+Exemplos de PII incluem:
+    Nome
+    Número da previdência social
+    Data de nascimento
+    Números de cartão de crédito
+    Números de contas bancárias
+    ID emitido pelo governo
+    Informações de endereço (rua, e-mail, números de telefone)
+

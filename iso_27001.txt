@@ -1,0 +1,28 @@
+ISO 27001
+é um padrão internacional
+que estabelece requisitos para a gestão
+é um padrão da segurança da informação (ISMS) em uma organização.
+
+A norma foi criada pela International Organization for Standardization (ISO) e
+pela International Electrotechnical Commission (IEC). 
+
+A ISO 27001 abrange todos os aspectos da segurança da informação, como:
+	Gestão de riscos,
+	Controle de acesso,
+	Criptografia.
+	
+A norma tem como objetivo garantir que as empresas implementem e
+mantenham controles eficazes
+para proteger os seus ativos de informação.
+
+Para isso, a ISO 27001 busca:
+	Promover a confidencialidade, integridade e disponibilidade das informações
+	Identificar e mitigar riscos de segurança da informação
+	Cumprir requisitos legais e regulamentares
+	Promover a confiança dos clientes e parceiros 
+
+A ISO 27001 foi atualizada em 2022
+para refletir a evolução das práticas comerciais,
+como o trabalho remoto.
+
+As organizações têm até 2025 para realizar a transição.

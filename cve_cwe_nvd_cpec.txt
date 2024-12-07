@@ -1,0 +1,10 @@
+CVE 
+	concentra-se em vulnerabilidades específicas,
+CWE 
+	categoriza os pontos fracos subjacentes,
+NVD 
+	serve como um banco de dados centralizado 
+	para pesquisa de informações 
+	sobre vulnerabilidades
+CAPEC 
+	é um conjunto de dados.

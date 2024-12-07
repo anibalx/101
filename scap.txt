@@ -1,0 +1,7 @@
+SCAP
+Security Content Automation Protocol
+protocolo de automação de conteúdo de segurança
+é um método para usar padrões específicos
+para permitir gerenciamento automatizado de vulnerabilidades,
+medição e avaliação de conformidade de políticas
+de sistemas implantados em uma organização, incluindo, por exemplo, conformidade com FISMA.

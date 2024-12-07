@@ -1,0 +1,9 @@
+DHCP snooping
+é um recurso de segurança
+que protege uma rede de dispositivos não autorizados
+que atuam como um servidor DHCP.
+
+é uma tecnologia de segurança 
+de camada 2 
+incorporada ao sistema operacional de um switch de rede 
+capaz de descartar tráfego DHCP considerado inaceitável

@@ -1,0 +1,83 @@
+ISO 9001
+é uma norma internacional
+que especifica requisitos
+para um sistema de gestão da qualidade (SGQ).
+Ela é utilizada por organizações 
+para demonstrar a capacidade de fornecer produtos e 
+serviços que atendem consistentemente aos requisitos dos clientes e 
+regulamentares, com o objetivo de aumentar a satisfação do cliente.
+
+Contexto da Organização:
+	Entendimento da organização e do seu contexto.
+	Compreensão das necessidades e expectativas das partes interessadas.
+	Definição do escopo do sistema de gestão da qualidade.
+	Estabelecimento do SGQ considerando os fatores internos e externos.
+
+
+Liderança:
+	Comprometimento da alta direção com o SGQ.
+	Foco no cliente.
+	Políticas de qualidade e objetivos claros.
+	Papéis, responsabilidades e autoridades bem definidos.
+
+
+Planejamento:
+	Ações para tratar riscos e oportunidades.
+	Objetivos da qualidade e planejamento para alcançá-los.
+	Planejamento de mudanças.
+
+
+Suporte:
+	Recursos necessários (pessoas, infraestrutura, ambiente de trabalho, etc.).
+	Competência e treinamento.
+	Conscientização, comunicação e documentação do SGQ.
+
+Operação:
+	Planejamento e controle operacional.
+	Requisitos de produtos e serviços.
+	Controle de processos, produção e serviços.
+	Liberação de produtos e serviços.
+	Controle de não conformidades.
+
+Avaliação de Desempenho:
+	Monitoramento, medição, análise e avaliação do SGQ.
+	Auditoria interna.
+	Análise crítica pela direção.
+
+Melhoria:
+	Abordagem para a melhoria contínua.
+	Ações corretivas para tratar não conformidades.
+	Melhoria do SGQ com base em análises e feedback.
+
+
+Benefícios da Implementação da ISO 9001:
+	Aumento da satisfação do cliente:
+		A norma enfatiza a importância de entender e atender às necessidades dos clientes.
+	Melhoria dos processos internos: 
+		Estruturação e otimização dos processos organizacionais.
+	Redução de custos: 
+		Ao identificar ineficiências e desperdícios, as organizações podem melhorar a eficiência e reduzir custos operacionais.
+	Acesso a novos mercados: 
+		Muitas empresas exigem a certificação ISO 9001 para formar parcerias ou como pré-requisito para licitações.
+	Vantagem competitiva: 
+		A certificação ISO 9001 pode ser um diferencial no mercado.
+
+Certificação ISO 9001:
+	Para obter a certificação, 
+	uma organização deve implementar um SGQ
+	de acordo com os requisitos da norma e 
+	ser auditada por um organismo certificador independente. 
+	Durante essa auditoria,
+	verifica-se se o sistema está em conformidade com a ISO 9001 e
+	se a empresa segue suas práticas estabelecidas.
+
+Ciclo PDCA na ISO 9001:
+	A norma ISO 9001 é baseada no ciclo PDCA (Plan-Do-Check-Act), que promove a melhoria contínua:
+		Plan (Planejar): 
+			Estabelecimento de objetivos e processos necessários.
+		Do (Fazer): 
+			Implementação dos processos.
+		Check (Verificar): 
+			Monitoramento e medição dos processos em relação aos objetivos.
+		Act (Agir): 
+			Ações para melhorar continuamente o desempenho.

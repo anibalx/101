@@ -1,0 +1,43 @@
+Programação defensiva 
+é um conjunto de técnicas de projeto (do inglês design) e
+programação objetivando a estabilidade e 
+a segurança de um software independentemente de seu imprevisível.
+A ideia pode ser vista como forma de reduzir ou 
+eliminar a hipótese de as Leis de Murphy terem efeito.
+Técnicas de programação defensiva começaram 
+a ser desenvolvidas quando sistemas de software 
+começaram a possibilitar efeitos catastróficos, 
+seja deliberadamente ou inadvertidamente.
+
+
+RECOMENDAÇÔES
+	Um dos problemas mais comuns é 
+	o uso de estruturas de tamanho constante e 
+	funções para dados de tamanho dinâmico sem checagem. 
+	É o problema de transbordamento de dados. 
+	Isso é particularmente comum para dados string em C. 
+	Funções como gets e scanf não devem ser usadas por não terem nenhum valor de tamanho máximo.
+
+	Nunca faça um código mais complexo que o necessário.
+	Complexidade alimenta bugs, incluindo problemas de segurança.
+
+	Deixe o código disponível para todos na rede (software livre) ou 
+	contrate alguém que faça uma auditoria de segurança.
+
+	Se possível, reutilize o código ao invés de reescrever do zero.
+
+	Codifique todo dado importante transmitido por redes.
+
+	Todo dado é importante até que se prove o contrário.
+
+	Todo código é inseguro até que se prove o contrário.
+
+	Nunca faça programas setuid a menos que tenha certeza que é seguro.
+
+	Se dados vão ser checados por correção, cheque se é correto, não se é incorreto.
+
+
+REFERÊNCIAS
+	https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_defensiva
+
+
