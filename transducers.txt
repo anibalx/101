@@ -1,4 +1,21 @@
 Transdutores 
+são componentes 
+que convertem uma forma de energia ou 
+uma grandeza física em outra forma de energia ou grandeza. 
+Eles são fundamentais em sistemas de controle, sensores e atuadores.
+
+Por exemplo, 
+um transdutor de temperatura 
+pode converter a temperatura de um fluido em uma corrente elétrica, 
+enquanto um transdutor de pressão 
+pode converter a pressão de um fluido em uma força mecânica.
+
+	Transdutores de temperatura (termistores, resistores de temperatura, etc.)
+	Transdutores de pressão (válvulas de pressão, sensores de pressão, etc.)
+	Transdutores de movimento (sensores de velocidade, sensores de aceleração, etc.)
+	Transdutores de luz (fotodiodos, fototransistores, etc.)
+
+Transdutores 
 são transformações algorítmicas composíveis. 
 Eles são independentes do contexto 
 de suas fontes de entrada e saída 
@@ -26,7 +43,16 @@ pode reutilizar essas receitas em diferentes fontes de dados.
 
 
 EX Clojure:
-  
+é uma função que aplica uma transformação a uma sequência de valores
+é usado para transformar a saída de uma função em uma forma diferente, sem alterar a função original.
+
+(defn quadrado [x] (* x x))
+
+(defn transdutor-quadrado [f coll]
+  (map f coll))
+
+(transdutor-quadrado quadrado [1 2 3 4 5]) ; retorna [1 4 9 16 25]
+
       # Chamada aninhada
       (reduce + (filter odd? (map #(+ 2 %) (range 0 10))))
 
