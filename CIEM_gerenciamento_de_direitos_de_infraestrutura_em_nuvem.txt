@@ -1,0 +1,8 @@
+CIEM
+se concentra em gerenciar direitos de infraestrutura em nuvem
+é uma abordagem de gerenciamento de direitos de infraestrutura em nuvem, 
+que se estende do conceito tradicional de Gestão de Identidades e Acessos (IAM) 
+para ambientes de computação em nuvem. 
+
+O CIEM se responsabiliza pelo gerenciamento das permissões e 
+acessos a recursos específicos dentro de ambientes de infraestrutura em nuvem

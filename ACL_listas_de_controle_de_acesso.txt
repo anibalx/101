@@ -1,0 +1,48 @@
+ACL
+Access Control Lists
+são uma extensão das permissões de arquivos e diretórios no Linux. 
+Elas permitem definir permissões específicas para usuários e grupos individuais.
+
+Para implementar o controle de acesso no Linux, pode-se usar os seguintes comandos: 
+
+	selinuxenabled: Verifica se o SELinux está habilitado no sistema
+	sestatus: Fornece informações detalhadas sobre o status e as políticas do SELinux
+	setsebool: Define variáveis SELinux booleans para controlar as políticas de acesso
+	getsebool: Exibe o estado atual das variáveis SELinux booleans
+
+Verifique se a distribuição suporta ACLs (procupe por "acl" após a saída do comando)
+
+	tune2fs -l /dev/sda1 | grep -i "Default mount options"
+
+
+Configuração de uma ACL:
+* -m = Modifique a ACL especificada
+* -x = Remover entradas da ACL
+* -b = Remova todas as entradas da ACL
+* -d = Configure uma ACL padrão para o diretório fornecido
+* -R = Aplique a ACL recursivamente a todos os conteúdos do diretório
+
+* u:<nome>
+* g:<nome do grupo>
+
+> Configurar ACL para usuário django, com concessão de leitura (r) ao arquivo sample.txt
+```
+setfacl -m u:django:r sample.txt
+```
+
+> Configurar ACL para usuário engineering, com concessão de leitura (r) ao arquivo sample.txt
+```
+setfacl -m g:engineering:r sample.txt
+```
+
+
+Exibe as configurações atuais da ACL.
+* -c = Exibe apenas entradas ACL e descarta as informações de cabeçalho extra
+* -R = Exibe o conteúdo do diretório recursivamente
+* -t = Exibe a saída no formato tabular mais legível
+```
+getfacl sample.txt
+```
+
+REFERÊNCIAS:
+https://thenewstack.io/a-guide-to-linux-access-control-lists/

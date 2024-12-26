@@ -1,0 +1,18 @@
+CIAM 
+se concentra em gerenciar a identidade e acesso dos usuários finais em aplicativos e serviços digitais
+é o gerenciamento de identidade e acesso do cliente, 
+que permite às empresas fornecer acesso seguro e 
+gerenciar os dados dos usuários finais. 
+
+O CIAM é a interseção entre segurança, 
+experiência do cliente e análise, 
+e é fundamental para gerar conversões e 
+construir a fidelidade do cliente. 
+
+Ele envolve a 
+administração, 
+coleta, 
+análise e 
+armazenamento seguro dos dados dos usuários, 
+bem como a proteção contra intrusões maliciosas e violações de dados, 
+garantindo conformidade com as leis de privacidade de dados, como a LGPD.

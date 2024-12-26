@@ -1,0 +1,26 @@
+Holerite 
+é um documento que certifica o pagamento do salário de um funcionário, 
+tanto pode ser depositado em sua conta bancária, 
+como retirado pelo trabalhador no departamento da empresa destinado a esse propósito. 
+É também conhecido como contracheque ou demonstrativo de pagamento.
+
+Características
+	Identificação das partes envolvidas: o colaborador e a empresa pagadora
+	CNPJ, endereço e razão social da empresa
+	Nome do colaborador, função, número do CPF e do PIS
+	Detalhes dos ganhos e descontos, incluindo salário base, horas extras, benefícios, descontos obrigatórios e outros itens pertinentes
+
+Legislação
+A Lei nº 8.112/90 
+estabelece que o pagamento do salário 
+deve ser feito até o 5º dia útil do mês subsequente ao vencido, 
+e que o holerite deve ser entregue ao colaborador 
+até essa mesma data. 
+Atualmente, os tribunais entendem que o contracheque pode ser entregue de maneira online.
+
+Origem da palavra
+A palavra “holerite” 
+vem do nome do inventor norte-americano Herman Hollerith, 
+que criou uma máquina de processamento de dados 
+em cartões perfurados 
+no século XIX.
