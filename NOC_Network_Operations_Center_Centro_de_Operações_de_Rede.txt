@@ -1,0 +1,19 @@
+NOC - Network Operation Center
+também conhecido como Central de Operações de Rede, 
+é um serviço interno ou externo 
+que atua de forma preventiva e proativa 
+com objetivo de manter o ambiente de TI o mais estável possível.
+
+Na prática, é o setor responsável por 
+identificar, investigar, priorizar, escalar e solucionar 
+qualquer problema que afete a performance ou 
+a disponibilidade da rede. 
+Toda essa análise é realizada 
+por meio de softwares específicos.
+
+Assim, os analistas que integram o NOC 
+se preocupam com as aplicações utilizadas e 
+com a manutenção de seu pleno funcionamento e disponibilidade.
+
+# REFERÊNCIAS
+https://www.claranet.com/br/blog/noc-soc-o-que-e-como-funciona
