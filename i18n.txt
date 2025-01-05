@@ -1,0 +1,13 @@
+Internacionalização e localização, 
+em informática, 
+são processos de desenvolvimento e/ou 
+adaptação de um produto, 
+em geral softwares de computadores, 
+para uma língua e cultura de um país.
+
+também é escrita acronimamente como i18n, 
+vindo da palavra inglesa internationalization, 
+onde se tomam a primeira e a última letra e o número de letras entre elas
+
+# REFERÊNCIA
+https://pt.wikipedia.org/wiki/Internacionaliza%C3%A7%C3%A3o_(inform%C3%A1tica)
