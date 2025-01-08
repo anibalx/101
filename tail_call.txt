@@ -91,6 +91,35 @@ que é um caso especial de recursão direta
             
             -> f() = if E then { S; return f() } else { return Q }
 
+/*
+ * REFERENCES
+ *
+ * [Head Recursion _ Tail Recursion _ Head VS Tail Recursion _ EP3](https://youtube.com/watchv?=lG6HxO7cDRw)
+ *
+ *     Basic for Comparison    |             Head Recursion            |     Tail Recursion
+ *
+ *                             |  Chamada recursiva                    | Chamada recursiva
+ *       Identification        |  é feita antes de executar            | é feita no final da função
+ *                             |  sua própria tarefa                   | depois de executar sua própria tarefa
+ *
+ *                             |  O risco de estouro de pilha          | O algoritmo geralmente pode ser reescrito para usar iteração.
+ *       Stack Overflow        |  estará lá para maiores entradas      | Na verdade, o compilador (ou pelo menos deve) converter o programa recursivo em um iterativo. 
+ *                             |                                       | Isso elimina o problema potencial do estouro de pilha
+ *
+ *                             |  Você não pode calcular os parâmetros | Podemos computar o parâmetro
+ *    Parameters Computation   |  sem retornar das chamadas de função  | sem sequer a função retornar
+ *                             |  aninhada                             |
+ *
+ *                             |                                       | Fluxo de execução parece uma linha reta
+ *    Execution flow structure |  Fluxo de execução parece uma flecha  | ou meia seta superior
+ *                             |                                       |
+ *
+ *         Convertible         |  Um pouco de pensamento necessário    |
+ *             to              |  para converter em versão iterativa e | Facilmente convetível na versão iterativa
+ *          interation         |  pode não ser direto para a frente    |
+ */
+
+
 
 # REFERÊNCIA
 https://stackoverflow.com/questions/33923/what-is-tail-recursion#:~:text=Tail%20recursion%20refers%20to%20the,begins%20popping%20the%20call%20stack.

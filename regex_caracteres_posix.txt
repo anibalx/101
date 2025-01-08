@@ -1,0 +1,69 @@
+# POSIX levam em conta a localidade do sistema.
+
+# s//g -> g == "Global Regular Expression Print"
+
+• O que você quer casar?
+• Em que quantidade?
+• Em qual contexto ou posição?
+
+
+Classe POSIX   |        Similar        |    Significa
+----------------------------------------------------------------
+  [:upper:]    |         [A-Z]         | Letras maiúsculas
+ [[:upper:]]   |        [A-ZÀ-Ü]
+
+  [:lower:]    |         [a-z]         | Letras minúsculas
+ [[:lower:]]   |        [a-zà-ü]
+
+  [:alpha:]    |        [A-Za-z]       | Maiúsculas/minúsculas
+ [[:alpha:]]   |       [A-Za-zÀ-ü]
+
+  [:alnum:]    |       [A-Za-z0-9)     | Letras e números
+ [[:alnum:]]   |      [A-Za-zÀ-ü0-9]
+
+  [:digit:J    |          [0-9]        |     Números
+  [:xdigit:]   |       [0-9A-Fa-f]     | Números hexadecimais
+  [:punct:]    |        [.'!?:...]     | Sinais de pontuação
+  [:blank:]    |          [ \t]        |   Espaço e Tab
+  [:space:]    |      [ \t\n\r\f\v]    | Caracteres brancos
+  [:cntrl:]    |                       | Caracteres de controle
+  [:graph:]    |      [^ \t\n\r\f\v]   | Caracteres imprimíveis
+  [:print:]    |      [^\t\n\r\f\v]    | Imprimíveis e o espaço
+
+    \d         |       [[:digit:J]     |       Dígito
+    \D         |       [^[:digit:JJ    |     Não-dígito
+    \w         |       [[:alnum:J_]    |       Palavra
+    \W         |       [^[:alnum:J_]   |     Não-palavra
+    \s         |       [[:space:]]     |       Branco
+    \S         |       [^[:space:]]    |     Não-branco
+
+    \a         |         Alert         |       Alerta (bipe)
+    \b         |       Backspace       |    Caractere Backspace
+    \e         |        Escape         |       Caractere Esc
+    \f         |         Form          |      feed Alimentação
+    \n         |        Newline        |        Linha nova
+    \r         |    Carriage return    |     Retorno de carro
+    \t         |         Htab          |   Tabulação horizontal
+    \v         |         Vtab          |    Tabulação vertica
+
+    \a         |      Alfabeto         |      [[:alpha:]]
+    \A         |    Não-alfabeto       |     [^[:alpha:]]
+    \h         |  Cabeça de palavra    |      [[:alpha]_]
+    \H         | Não-cabeça de palavra |     [^[:alpha:]_]
+    \l         |     Minúsculas        |     [[:lower:]]
+    \L         |    Não-minúsculas     |     [^[:lower:]]
+    \u         |     Maiúsculas        |      [[:upper:]]
+    \U         |    Não-maiúsculas     |     [^[:upper:]]
+    \o         |     Número octal      |        [0-7]
+    \O         |   Não-número octal    |       [^0-7]
+
+    \B         |    Não-borda 
+    \A         |    Início do texto 
+    \Z         |    Fim do texto 
+    \l         |    Torna minúscula 
+    \L         |    Torna minúscula até \E 
+    \u         |    Torna maiúscula 
+    \U         |    Torna maiúscula até \E 
+    \Q         |    Escapa até \E 
+    \E         |    Fim da modificação 
+    \G         |    Fim do casamento anterior
