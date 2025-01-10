@@ -1,0 +1,14 @@
+Naming Convention
+convenção de nomenclatura 
+é um conjunto de regras 
+para escolher a sequência de caracteres 
+a ser usada para identificadores 
+que denotam 
+variáveis, 
+tipos, 
+funções e 
+outras entidades 
+no código-fonte e documentação.
+
+# REFERÊNCIAS
+https://en.wikipedia.org/wiki/Naming_convention_(programming)
