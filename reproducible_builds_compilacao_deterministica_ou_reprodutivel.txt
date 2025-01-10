@@ -1,0 +1,19 @@
+compilação determinística ou 
+compilação reprodutível 
+é um processo em que, 
+ao compilar o mesmo código-fonte 
+usando o mesmo compilador e 
+as mesmas condições 
+(como opções de compilação, dependências e ambiente), 
+o resultado gerado 
+(por exemplo, um arquivo binário ou executável) 
+é exatamente o mesmo. 
+
+Isso significa 
+que o binário produzido é idêntico byte a byte, 
+independentemente de onde ou quando a compilação ocorre.
+
+# REFERÊNCIAS
+https://reproducible-builds.org/docs/deterministic-build-systems/
+https://wiki.archlinux.org/title/Reproducible_builds_(Portugu%C3%AAs)
+https://en.wikipedia.org/wiki/Reproducible_builds
