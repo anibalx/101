@@ -1,0 +1,2 @@
+# EX como inserir o nome da máquina, através do SystemD
+	hostnamectl set-hostname <NAME>

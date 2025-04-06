@@ -1,0 +1,47 @@
+O método DISC 
+é uma ferramenta que classifica os comportamentos das pessoas em quatro perfis: 
+	Dominância   (D), 
+	Influência   (I), 
+	Estabilidade (S) e 
+	Conformidade (C). 
+Ele é usado para melhorar processos de recrutamento, desenvolvimento de equipes e liderança. 
+
+
+CRIADOR:
+	O método DISC foi criado pelo psicólogo 
+	William Moulton Marston, 
+	PhD pela Universidade de Harvard, 
+	a partir da década de 1920.
+
+
+FUNCIONAMENTO:
+	O método DISC é baseado em um questionário 
+	que identifica as características predominantes e 
+	menos evidenciadas de cada indivíduo. 
+
+	Com base nos resultados do questionário, 
+	os gestores podem desenvolver planos de ação mais estratégicos. 
+
+
+PERFIS COMPORTAMENTAIS:
+	Pessoas com o perfil Dominante são:
+		assertivas, 
+		decididas e 
+		orientadas para resultados.
+
+	Pessoas com o perfil Influente são:
+		sociáveis,
+		comunicativos e
+		persuasivos.
+
+	Pessoas com o perfil Estável são:
+		pacientes,
+		amigáveis e
+		previsíveis.
+
+	Pessoas com o perfil Conformista são:
+		precisos,
+		analíticos e
+		organizados.
+
+[Teste DISC](https://personality.co/personality-test)

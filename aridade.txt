@@ -1,8 +1,8 @@
-aridade de uma 
-função ou 
-operação 
+aridade de
+uma função ou operação 
 é o número de argumentos ou 
-operandos tomados. 
+operandos tomados, 
+que uma função pode receber.
 
 A aridade de uma relação 
 é o número n de elementos 

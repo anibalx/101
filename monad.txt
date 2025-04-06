@@ -1,9 +1,11 @@
 mônada,
 é uma abstração 
 que permite estruturar programas genericamente. 
+
 As linguagens de suporte 
 podem usar mônadas para abstrair o código clichê (wrapper)
 necessário para a lógica do programa. 
+
 As mônadas conseguem isso fornecendo 
 seu próprio tipo de dados 
 (um tipo específico para cada tipo de mônada), 

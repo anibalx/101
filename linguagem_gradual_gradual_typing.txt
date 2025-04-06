@@ -1,0 +1,22 @@
+Tipagem Gradual
+linguagem de programação
+que combina elementos de 
+tipagem estática e 
+tipagem dinâmica
+
+É reconhecido academicamente.
+
+Tipagem opcional
+	Os programadores podem optar por anotar tipos em partes do código, enquanto deixam outras partes sem anotações. O sistema de tipos da linguagem verificará as anotações fornecidas, mas permitirá que o código sem anotações seja executado.
+
+
+Flexibilidade
+	A tipagem gradual oferece um equilíbrio entre a segurança da tipagem estática e a flexibilidade da tipagem dinâmica. Isso permite que os programadores usem a tipagem estática onde ela é mais benéfica, como em partes críticas do código, e a tipagem dinâmica onde ela é mais conveniente, como em protótipos rápidos.
+
+
+Migração gradual
+	A tipagem gradual facilita a migração de bases de código dinâmicas existentes para a tipagem estática. Os programadores podem adicionar anotações de tipo gradualmente, sem precisar reescrever todo o código de uma vez.
+
+
+Verificação de tipo consistente
+	As linguagens de tipagem gradual possuem um verificador de tipo que analisa o código e identifica possíveis erros de tipo. O verificador de tipo leva em consideração as anotações de tipo fornecidas e o código sem anotações, garantindo que o código seja consistente.

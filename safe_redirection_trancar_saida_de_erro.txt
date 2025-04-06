@@ -1,0 +1,13 @@
+Safe redirection ou
+safe output redirection ou
+noclobber redirection ou
+noclobber output redirection ou
+variação do operador de redirecionamento de saída (>) com um sufixo de preservação (-) ou
+trancar a saída de um comando
+
+pode ser utilizada para redirecionar a saída de um comando enquanto 
+"tranca" o arquivo de destino contra exclusão acidental. 
+
+Isso é possível porque essa sintaxe faz com que a shell 
+redirecione a saída sem truncar o arquivo, 
+diferentemente do comportamento padrão de (>) (que esvazia o arquivo antes de escrever).

@@ -1,4 +1,4 @@
-Lazy loading (carregamento assíncrono),
+Lazy loading (carregamento assíncrono, preguiçoso),
 é um desing pattern (padrão de projeto)
 comumente usado para:
 adiar a inicialização de um objeto até o ponto em que é necessário

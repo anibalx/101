@@ -38,6 +38,7 @@ Qual é a versão mais atualizada da linguagem C e qual é o compilador que melh
   
   Quem usa no Windows tende usar o compilador da Microsoft. Já em Linux tendem usar o GCC, no Mac usam Clang, mas este tem sido adotado por muita gente, inclusive meio que virou padrão em no FreeBSD. Há alguns que usam Intel por otimizações específicas, mas é raro. Outros só são usados por causa de plataforma ou necessidade específica ou legado. Os primeiros suportam todas as principais plataformas. Sim, ao contrário do que você pensa, o compilador da Microsoft gera código perfeito para Linux, Mac, Android, etc.
 
+
 # REFERÊNCIAS
 [Qual a diferença entre C e C99?](https://pt.stackoverflow.com/questions/295685/qual-a-diferen%C3%A7a-entre-c-e-c99)
 [Qual é a versão mais atualizada da linguagem C e qual é o compilador que melhor funciona?](https://pt.stackoverflow.com/questions/328085/qual-%c3%a9-a-vers%c3%a3o-mais-atualizada-da-linguagem-c-e-qual-%c3%a9-o-compilador-que-melhor)

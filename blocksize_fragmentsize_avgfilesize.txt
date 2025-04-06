@@ -1,0 +1,27 @@
+BlockSize
+tamanhao de uma operação de IO, feito de uma só vez no disco
+backup de arquivos bem grandes, blocksize maior
+operações git, blocksize menor pois a leitura de IO vai ser muito fragmentada e vai perder performance
+
+ex:
+	blocksize 4K -> transferir arquivo de 16K -> 4 (operações) x 4K = 16K
+	blocksize 16K -> transferir arquivo de 16K -> 1 (operações) x 4K = 16K
+
+FragmentSize
+pequena parte que forma um block
+Fragment Size = Block Size / (2, 4 ou 8)
+são para eliminar o desperdício com arquivos muito pequenos
+com BlockSize muito grande
+filmes em BlockSize, legendas e FragmentSize
+
+ex:
+	BlockSize 16K -> FragmentSize = 16/2, ou
+	BlockSize 16K -> FragmentSize = 16/4, ou
+	BlockSize 16K -> FragmentSize = 16/8, ou
+
+AvarageFileSize
+especifica tamanho médio de cada arquivo
+dentro do file system
+
+REFERÊNCIAS
+[Instalação FreeBSD COMPLETA 100% Shell](https://www.youtube.com/watch?v=IL6RKg5Qf_w)

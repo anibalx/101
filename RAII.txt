@@ -5,11 +5,8 @@ Aquisition
 Is
 Initialization
 
-A
-aquisição de
-um recurso
-representa a sua
-inicialização
+A aquisição de um recurso
+representa a sua inicialização
 
 
 fn main()

@@ -1,0 +1,21 @@
+Ondas infrassônicas 
+são ondas sonoras com frequências abaixo de 20 Hz
+
+	São ondas sonoras muito graves 
+	Podem ser produzidas por vento, tornados, erupções vulcânicas, alguns terremotos e por animais 
+	Podem se propagar por longas distâncias, pois são menos sujeitas a interferências 
+
+
+ondas ultrassônicas 
+são ondas sonoras com frequências acima de 20.000 Hz
+
+	São ondas sonoras que ultrapassam o limite superior da capacidade de audição humana 
+	São utilizadas em diversos campos, como na deteção de objetos, medição de distâncias, ultrasonografia, limpeza, mistura e aceleração de processos químicos 
+	São geradas por transdutores construídos a partir de materiais piezoelétricos 
+	Propagam-se através de líquidos, tecidos e sólidos 
+	Sofrem reflexão e refração nas interfaces onde ocorre uma mudança na densidade 
+
+O ouvido humano 
+pode ouvir sons com frequências 
+entre 20 Hz e 20.000 Hz, 
+mas estes limites não são absolutos

@@ -1,0 +1,7 @@
+O Modelo Bell-Lapadula
+é definido como um modelo de segurança
+que se concentra em manter a confidencialidade dos objetos
+impedindo que usuáiors em um nível de segurança mais baixo
+acessem objetos em um nível de segurança mais acima
+
+Foi originalmente desenvolvido para o Departamento de Segurança do EUA (USA)

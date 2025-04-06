@@ -1,0 +1,16 @@
+Driver
+programa, que permite a comunicação entre dois dispositivos
+interface de comunicação entre dispositivos
+ex: CPU <-> I/O (mouse, HD etc.)
+pode estar tanto na CPU,
+como dentro do dispositivo que construído para se comunicar com a CPU
+todos os dispositivos externos necessitam de uma driver
+
+Faz-se necessário saber como a comunicação é feita
+qual o protocolo
+o que protocolo demanda
+e extrair a informação para, depois,
+traduzir isso em código (linguagem de programação)
+
+# REFERÊNCIA
+[O que é um driver？ (você mesmo pode fazer um)][https://youtube.com/watch?v=p7a-cv_X_yE]

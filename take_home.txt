@@ -1,0 +1,5 @@
+Take-Home
+desenvolva um CRUD
+usando uma ferramenta específica (Python) 
+para fazer tal coisa (cadastrar usuários)
+você possui uma semana

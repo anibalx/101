@@ -1,3 +1,3 @@
-ctime - a última vez que o inode do arquivo foi alterado (e.g. permissions changed, file renamed, etc..)
-mtime - última vez que o CONTEÚDO do arquivo foi alterado
-atime - última vez que o arquivo foi acessado
+ctime - a última vez que o INODE do ARQUIVO foi alterado (e.g. permissions changed, file renamed, etc..)
+mtime - última vez que o CONTEÚDO do ARQUIVO foi alterado
+atime - última vez que o ARQUIVO foi ACESSADO

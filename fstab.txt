@@ -1,0 +1,25 @@
+FSTAB
+O arquivo fstab
+é um arquivo de configuração do sistema
+localizado em /etc/fstab
+em sistemas operacionais Unix e 
+sistemas de computadores Unix-like. 
+
+No GNU/Linux é parte do pacote util-linux. 
+O arquivo fstab tipicamente lista partições de disco todos disponíveis e 
+outros tipos de sistemas de arquivos e 
+fontes de dados 
+que não são necessariamente baseada em disco, 
+e indica como devem ser inicializados ou 
+não integrado na estrutura do sistema de arquivos maiores.
+
+   1             2                 3                          4                       5                      6
+partição /ponto_de_montagem tipo_de_filesystem propriedades_leitura_ou_escrita dump_backupfile pass_verificação_de_integridade
+
+ex:
+	UUID=e2390b87f-fabc-4350-90e8-a60258f90a89 /mnt/e2390b87f-fabc-4350-90e8-a60258f90a89 auto nosuid,nodev,nofail,noauto,x-gvfs-show 0 0
+
+ex:
+	echo "/dev/gpt/rootfs / ufs rw 1 1" >> /etc/fstab
+	echo "/dev/gpt/swapfs none swap sw 0 0" >> /etc/fstab
+	echo "/dev/gpt/efifs /boot/efi msdosfs rw 0 0" >> /etc/fstab

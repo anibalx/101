@@ -1,0 +1,72 @@
+Master/Main
+	onde fica o código em produção
+
+	algumas funcionalidades em desenvolvimento
+	serão mescladas ou associadas
+	a branch master/main
+
+	se interage com a branch master/main
+	através da branch hotfix ou
+	através da branch release
+Develop
+	onde fica o código do próximo deploy
+
+	serve como uma linha do tempo
+	com os últimos desenvolvimentos
+	isso significa que possui funcionalidades 
+	ainda não publicadas
+	mas que serão mescladas ou associadas
+	com a branch master/main
+Feature
+	sempre são criadas
+	a partir da branch develop
+	sem contato com a master/main
+
+	utilizadas para desenvolvimento
+	de funcionalidades específicas
+
+	cada funcionalidade
+	deve deve estar atralada
+	a uma branch feature específica, individual
+
+	recomenda-se o uso de uma convenção de nomes
+	exemplo:
+		feature/meu-forum
+
+	quando finalizadas
+	são mescladas (mergiadas, merge)
+	com a branch develop
+	e são removidas
+Hotfix
+	criada a partir
+	da branch master/main
+
+	para realizar correções imediatas
+	encontradas no sistema em produção
+
+	cada hotfix
+	deve deve estar atralada
+	a uma branch hotfix específica, individual
+
+	quando finalizadas
+	são mescladas (mergiadas, merge)
+	com a branch master/main e
+	com a branch develop
+	e são removidas
+
+	por fim
+	cria-se um tag
+	com a nova versão do projeto
+Release
+	serve como ponte entre develop e master/main
+	para fazer a mescla (mergear, merge) entra as branchs
+
+	ela funciona como ambiente de homologação e 
+	é removida após realizar os testes de mescla (megear, merge) 
+	com a branch master/main
+
+	caso seja encontrado algum bug e haja alguma alteração,
+	ela também deve ser sincronizada com a branch develop.
+
+REFERÊNCIA
+https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar

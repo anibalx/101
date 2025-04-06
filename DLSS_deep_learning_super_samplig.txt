@@ -1,0 +1,27 @@
+Deep Learning Super Sampling (DLSS) 
+é uma tecnologia de renderização de imagem 
+que usa inteligência artificial (IA) 
+para melhorar a qualidade de imagem e 
+aumentar a taxa de quadros. 
+
+Foi desenvolvida pela NVIDIA e está disponível em vários jogos. 
+
+
+COMO FUNCIONA:
+	Um modelo neural é treinado com milhares de imagens de um jogo, com e sem anti-aliasing
+	O modelo aprende como melhorar a imagem para a qualidade anti-aliasing
+	O modelo treinado é incorporado no driver do jogo
+	Durante o jogo, o modelo é executado usando os núcleos CUDA das GPUs NVIDIA
+
+
+VANTAGENS:
+	Permite configurações gráficas mais altas e/ou 
+	taxas de quadros para uma resolução de saída dada 
+
+	Melhora a fidelidade visual dos jogos e 
+	aplicações sem as perdas de desempenho tradicionais 
+	associadas a resoluções mais altas 
+
+	Permite que a maioria do pipeline gráfico 
+	funcione a uma resolução mais baixa 
+	para aumentar o desempenho
