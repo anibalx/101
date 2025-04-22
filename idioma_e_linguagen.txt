@@ -1,1 +1,24 @@
 Idioma (estrutura linguística) e linguagem (uso dessa estrutura para se comunicar)
+
+A linguagem é o conceito mais amplo, abrangendo todas as formas de comunicação.
+Língua é um sistema de comunicação, enquanto idioma é uma língua que é oficial em um país
+
+Linguagem:
+	É a capacidade universal dos seres humanos de se comunicarem e expressarem.
+	É um sistema amplo de sinais, que pode ser verbal (palavras faladas ou escritas) ou não verbal (gestos, expressões faciais, imagens, sons, etc.).
+	É inerente à condição humana e presente em todas as culturas e sociedades.
+	A língua é apenas uma das formas de expressão da linguagem.
+
+Língua:
+	É um conjunto de regras e valores que os falantes de uma comunidade aprendem através da fala 
+	É um instrumento de comunicação que permite aos falantes interagir com a sociedade 
+	Pode manifestar-se de forma oral ou gestual 
+	É um meio sistemático de transmissão de ideias 
+	É baseada em palavras, ou seja, em uma comunidade, um determinado grupo de indivíduos usa a linguagem verbal
+
+Idioma:
+	É uma língua própria de um povo
+	Está relacionado com a existência de um Estado político
+	É utilizado para identificar uma nação em relação às demais
+	É a língua oficial que é utilizada em uma certa região ou país
+	É a língua peculiar a uma região
