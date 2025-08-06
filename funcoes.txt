@@ -1,0 +1,487 @@
+Funções matemáticas
+  O que é?
+    Uma função matemática 
+    é um mapeamento de membros de um conjunto, 
+    chamado de conjunto domínio, 
+    para outro, 
+    chamado de conjunto imagem. 
+
+  Definição:
+    A definição de função 
+    especifica os conjuntos domínio e imagem, 
+    explícita ou implicitamente, 
+    com o mapeamento, 
+    descrito por uma expressão 
+    ou, em alguns casos, 
+    por uma tabela. 
+
+    As funções são geralmente aplicadas 
+    a um elemento em particular do conjunto domínio, 
+    fornecido como um parâmetro para a função. 
+
+    Note que o conjunto domínio 
+    pode ser o produto vetorial de diversos conjuntos
+    (refletindo que pode existir mais de um parâmetro). 
+    Uma função leva a, 
+    ou retorna, 
+    um elemento do conjunto imagem.
+
+  Características
+    Uma das características fundamentais das funções matemáticas 
+    é que a ordem de avaliação de suas expressões de mapeamento 
+    é controlada por recursão e expressões condicionais, 
+    e não por sequência e repetição iterativa, 
+    comuns nas linguagens de programação imperativas. 
+
+    Outra característica importante das funções matemáticas 
+    é que, como elas não têm efeitos colaterais, 
+    sempre definem o mesmo valor 
+    quando fornecido o mesmo conjunto de argumentos.
+
+  OBS:
+    Efeitos colaterais em linguagens de programação estão conectados a variáveis que modelam posições de memória.
+
+      Na matemática, 
+      não existe algo como uma variável 
+      que modela uma posição de memória. 
+
+    Variáveis locais
+    em funções em linguagens de programação imperativas 
+    mantêm o estado da função. 
+
+      Na matemática, 
+      não existe o conceito do estado de uma função. 
+      Uma função matemática define um valor, 
+      em vez de especificar uma sequência de operações sobre valores em memória 
+      para produzir um valor.
+      Não existem variáveis no sentido das variáveis imperativas, 
+      então não podem existir efeitos colaterais.
+
+  Objetivo
+    O objetivo do projeto de uma linguagem de programação funcional 
+    é mimetizar funções matemáticas ao máximo possível. 
+
+    Esse objetivo 
+    resulta em uma abordagem para a solução de problemas 
+    fundamentalmente diferente de abordagens usadas com linguagens imperativas. 
+
+    Em uma linguagem imperativa, 
+    uma expressão é avaliada 
+    e o resultado é armazenado em uma posição de memória, 
+    representada como uma variável em um programa. 
+
+    Essa atenção necessária às células de memória 
+    resulta em uma metodologia de programação 
+    de um nível relativamente baixo. 
+
+    Um programa em uma linguagem de montagem 
+    geralmente também armazena os resultados de avaliações parciais de expressões. 
+
+    Por exemplo, para avaliar
+      (x + y)/(a - b) -> 
+        -> armazena (x + y) ->
+        -> avalia (a - b)
+
+    Uma linguagem de programação puramente funcional 
+    não usa variáveis, 
+    nem sentenças de atribuição, 
+    liberando o programador 
+    de preocupações relacionadas às células de memória do computador 
+    no qual o programa é executado. 
+
+    Sem variáveis, 
+    as construções de iteração não são possíveis, 
+    já que elas são controladas por variáveis. 
+
+    As repetições devem ser especificadas com recursão 
+    em vez de com repetição. 
+
+    Os programas são definições de funções 
+    e especificações de aplicações de funções, 
+    e as execuções consistem em avaliar a aplicação de funções. 
+
+    Sem variáveis, 
+    a execução de um programa puramente funcional 
+    não tem estado no sentido de semântica operacional e denotacional.
+
+    A execução de uma função 
+    sempre produz o mesmo resultado 
+    quando fornecidos os mesmos parâmetros. 
+    Esse recurso é chamado de transparência referencial. 
+    Ele torna a semântica de linguagens puramente funcionais 
+    muito mais simples do que a semântica das linguagens imperativas 
+    (e do que linguagens funcionais que incluem recursos imperativos).
+
+    Uma linguagem funcional 
+    fornece um conjunto de funções primitivas, 
+    um conjunto de formas funcionais 
+    para construir funções complexas 
+    a partir dessas funções primitivas, 
+    uma operação de aplicação de função e alguma estrutura ou estruturas 
+    para representar dados. 
+
+    Essas estruturas 
+    são usadas para representar os parâmetros e os valores computados 
+    pelas funções. 
+    Se uma linguagem funcional é bem definida, 
+    ela requer apenas um número relativamente pequeno de funções primitivas.
+
+    OBS:
+      Apesar de as linguagens funcionais serem geralmente implementadas com interpretadores, 
+      os programas nelas podem ser compilados. 
+
+    Problema da recursão
+      Uma das fontes da execução mais lenta de programas escritos em linguagens funcionais, 
+      em relação a programas semanticamente equivalentes em linguagens imperativas, 
+      é o uso da recursão para especificar repetição. 
+      Com recursão, 
+      a sobrecarga da ligação das chamadas e retornos de funções 
+      é parte do custo. 
+
+    Recursão em cauda
+      O uso de recursão em cauda 
+      é uma solução parcial para esse problema. 
+      Brevemente, 
+      se uma chamada recursiva em uma função 
+      é a última expressão na função, 
+      ela é chamada de recursão em cauda 
+      e um compilador 
+      pode facilmente converter tal recursão em uma iteração, 
+      resultando em uma execução mais rápida. 
+
+      Além disso, 
+      é possível converter automaticamente algumas recursões que não são em cauda para recursão em cauda, 
+      expandindo a aplicabilidade do processo. 
+
+    Probrlemas de Linguagens Imperativas como Funcional
+      Linguagens imperativas 
+      normalmente fornecem apenas suporte limitado para programação funcional. 
+
+      A desvantagem mais séria do uso de uma linguagem imperativa 
+      para fazer programação funcional 
+      é que funções em linguagens imperativas 
+      têm restrições acerca dos tipos de valores que podem ser retornados. 
+
+      Em algumas linguagens,
+      como o Fortran, 
+      apenas valores de tipos escalares podem ser retornados. 
+
+      Mais importante, 
+      linguagens imperativas 
+      normalmente não podem retornar uma função. 
+     
+     Tais restrições limitam os tipos de formas funcionais que podem ser fornecidas. 
+     Outro problema sério com as funções de linguagens imperativas 
+     é a possibilidade de efeitos colaterais funcionais. 
+     Como vimos no Capítulo 7, os efeitos colaterais funcionais 
+     complicam a legibilidade e diminuem a confiabilidade de expressões
+
+Funções Simples
+  Definições de funções 
+  são geralmente escritas como um nome de função, 
+  seguido de uma lista de parâmetros entre parênteses, 
+  seguidos pela expressão de mapeamento. 
+
+  Por exemplo, 
+    cube(x) ≡ x * x * x, onde x é um número real 
+
+  Nessa definição, 
+  os conjuntos domínio e imagem 
+  são os números reais. 
+
+  O símbolo ≡ 
+  é usado para significar “é definido como”. 
+
+  O parâmetro x 
+  pode representar qualquer membro do conjunto domínio, 
+  mas é fixado para representar um elemento específico 
+  durante a avaliação da expressão da função. 
+
+  É assim que os parâmetros das funções matemáticas diferem das variáveis em linguagens imperativas.
+
+  Aplicações de funções 
+  são especificadas por um par 
+  que contém o nome da função 
+  com um elemento particular do conjunto domínio. 
+
+  O elemento da imagem 
+  é obtido ao avaliarmos a expressão de mapeamento da função 
+  com o elemento do domínio 
+  substituído para as ocorrências do parâmetro. 
+
+  Por exemplo, 
+  cube(2.0) leva ao valor 8.0. 
+
+  Mais uma vez, 
+  é importante notar que, 
+  durante a avaliação, 
+  o mapeamento de uma função não contém nenhum parâmetro desvinculado, 
+  onde um parâmetro vinculado é um nome para um valor em particular. 
+
+  Cada ocorrência de um parâmetro 
+  é vinculada a um valor do conjunto domínio 
+  e é considerada uma constante durante a avaliação. 
+
+
+Expressões Lambdas
+  Alonzo Church (1941) -> Notação Lambda 
+  especifica parâmetros e o mapeamento de uma função
+  expressões lambda -> função propriamente dita, mas não nomeada
+    ex: (x) = x * x * x
+  
+  Conforme dito anteriormente, 
+  antes da avaliação, 
+  um parâmetro representa qualquer membro do conjunto domínio, 
+  mas durante a avaliação 
+  ele é vinculado a um membro em particular. 
+
+  Quando uma expressão lambda é avaliada para um parâmetro, 
+  a expressão é dita aplicada a esse parâmetro. 
+
+  A mecânica de tal aplicação 
+  é a mesma para qualquer avaliação de função. 
+
+    ex: (x) = x * x * x = x^3
+    ex: (2) = 2 * 2 * 2 = 2^3 = 8
+
+  Quando usar?
+    Entretanto, 
+    funções sem nomes são algumas vezes úteis em programação funcional 
+    (bem como na matemática). 
+
+    Por exemplo, considere uma função 
+    cuja ação é produzir outra para aplicação imediata a uma lista de parâmetros. 
+    A função produzida não precisa de um nome, 
+    já que ela é aplicada apenas no ponto de sua construção. 
+
+
+Funções de alta ordem (forma funcional, ordem superior, high-ordem functions)
+  composição de funções
+    h = f ° g
+      f(x) = x + 2
+      g(x) = 3 * x
+    h(x) = f(g(x)), or h(x) = (3 * x) + x
+
+Aplicar-para-todos (apply-to-all)
+    h(x) = x * x
+    a(h(x), [2, 3, 4]) = (4, 9, 16)
+
+Tranparência Referêncial
+  Execução de uma função sempre produz o mesmo resultado quando fornecidos os mesmos parâmetros
+
+
+Controle de Fluxo
+  O controle de fluxo 
+  em definições de funções matemáticas 
+  é consideravelmente diferente 
+  do de programas em linguagens de programação imperativas. 
+
+  Enquanto funções em linguagens imperativas 
+  são definidas como coleções de sentenças 
+  que podem incluir diversos tipos de sentenças de controle de fluxo, 
+
+  funções matemáticas não têm sentenças múltiplas 
+  e usam apenas recursão
+  e expressões condicionais 
+  para a avaliação do controle de fluxo. 
+
+  Por exemplo, 
+  a função fatorial 
+  pode ser definida com essas duas operações 
+
+  Uma expressão condicional matemática 
+  é na forma de uma lista de pares, 
+  cada um com uma expressão com guarda. 
+
+  Cada expressão com guarda 
+  consiste em uma guarda de predicado e uma expressão. 
+
+  O valor de tal expressão condicional 
+  é o valor da expressão associada com o predicado que é verdadeiro. 
+
+  Apenas um dos predicados pode ser verdadeiro 
+  para um dado parâmetro ou lista de parâmetros. 
+
+
+Processamento de listas
+  Uma linguagem de programação 
+  para processamento de listas 
+  deve incluir primitivas para manipular listas. 
+
+  Em particular, 
+  deve fornecer operações para 
+    selecionar partes de uma lista, 
+  o que em certo sentido 
+    desmantela a lista, 
+  e ao menos uma operação para 
+    construir listas.
+    construir uma nova lista que contenha todos os elementos de duas listas passadas como argumentos.
+
+  Lista Simples
+    Em termos de iteração, 
+    o problema da pertinência 
+    é simplesmente comparar o átomo e os elementos individuais da lista, 
+    um de cada vez 
+    em alguma ordem, 
+    até um casamento ser encontrado ou 
+    até não existirem mais elementos na lista a serem comparados. 
+
+    Um processo similar pode ser realizado usando recursão. 
+
+    Ao todo, existem três casos que devem ser tratados na função: 
+    uma entrada de lista vazia, 
+    um casamento entre o átomo e o CAR da lista ou 
+    uma diferença entre o átomo e o CAR da lista, que causa a chamada recursiva.
+
+
+LISP (original)
+  átomos         => A, B, C, D
+  listas         => (A B (C D)) 
+  sublista       => (C D)
+  lista aninhada => (A (B C) D (E (F G)))
+
+  listas      => simplesmente encadeada, com cada nó tendo dois ponteiros e representando um elemento
+  Nó-átomo    => nó para o átomo A, primeiro ponteiro apontado para a representação do átomo
+  Nó-sublista => nó para a sublista (C D), primeiro ponteiro apontado para A
+  Nó-lista    => nó para a lista (A B (C D)), primeiro ponteiro apontado para A; sublista (C D) -> NIL
+
+ML 
+  ML tem funções que correspondem a CAR e CDR de Scheme, 
+  chamadas de hd (head – cabeça) e 
+  tl (tail – cauda). 
+
+  Por exemplo, 
+    hd [5, 7, 9] is 5 
+    tl [5, 7, 9] is [7, 9]
+
+    fun length([]) = 0
+    |   length(h :: t) = 1 + length(t);
+
+    fun append([], list2) = list2
+    |   append(h :: t, list2) = h :: append(t, list2);
+
+  Nome e valor
+    // val nome = expressão;
+    val distance = time * speed;
+
+  Não pense que essa sentença é exatamente igual às de atribuição nas linguagens imperativas. 
+
+  A sentença val vincula um nome a um valor, 
+  mas o nome não pode ser posteriormente revinculado a um novo valor. 
+
+  Na verdade, se você realmente revincular um nome com uma segunda sentença val,
+  isso faz criar uma nova entrada no ambiente 
+  não relacionada à versão anterior do nome (O ambiente pode ser visto como uma tabela de símbolos que arma).
+
+  Na verdade, 
+  após a nova vinculação, 
+  a entrada de ambiente anterior 
+  (para a vinculação anterior) 
+  não é mais visível. 
+
+  Além disso, o tipo da nova vinculação não precisa ser o mesmo da anterior. 
+
+  Sentenças val não têm efeitos colaterais. 
+
+  Elas simplesmente adicionam um nome ao ambiente atual e 
+  o vinculam a um valor, 
+  como a forma especial LET de Scheme.
+
+  let val nome = expressão_1 in expressão_2 end
+  let 
+    val pi = 3.14159
+  in
+    pi * radius * radius
+  end;
+
+Haskell
+  Polimorfismo
+    square x = x * x
+    square 3 = 3 * 3
+    square 3.0 = 3.0 * 3.0
+
+Programação Funcional, Elixir ou Contraste de Paradigmas
+
+  Compreenssão Listas
+    Compreensões de lista, 
+    suportadas por Python e introduzidas no Capítulo 6, 
+    fornecem um método de descrever listas que representam conjuntos. 
+
+    A sintaxe de uma compreensão de lista em Haskell 
+    é a mesma daquela geralmente usada para descrever conjuntos na matemática, 
+    cuja forma geral é 
+      [corpo | qualificadores] 
+    Por exemplo, 
+      [n * n * n | n <- [1..50]] -- gerador
+    Ela é lida como “a lista de todos n*n*n tal que n é obtido da faixa de 1 a 50”.
+
+Linguagem de Programação Estrita
+  Uma linguagem de programação é estrita 
+  se requer que todos os parâmetros reais 
+  sejam completamente avaliados, 
+  garantindo que o valor de uma função 
+  não depende da ordem em que os parâmetros são avaliados. 
+
+  OBS: Scheme -> parâmetros para uma função 
+                 são completamente avaliados 
+                 antes de a função ser chamada
+
+Linguagem de Programação Não Estrita
+  Uma linguagem é não estrita 
+  se ela não tem o requisito de ser estrita. 
+
+Vantagens Estritra x Não Estritas
+  Linguagens não estritas podem ter diversas vantagens 
+  em relação às linguagens estritas. 
+
+  Primeiro, linguagens não estritas 
+  são geralmente mais eficientes, 
+  porque alguma avalição é evitada 
+  (Note como isso está relacionado com a avaliação em curto-circuito de expressões booleanas,)
+
+  Segundo, algumas capacidades interessantes são possíveis com linguagens não estritas 
+  e não são possíveis com linguagens estritas. 
+  Dentre essas, estão as listas infinitas. 
+  Linguagens não estritas podem usar uma forma de avaliação 
+  chamada de avaliação preguiçosa 
+  (também conhecida como avaliação atrasada, adiada ou postergada), 
+  e isso significa que 
+  as expressões são avaliadas apenas 
+  se e quando seus valores forem necessários. 
+
+  Lazy Evaluation (avaliação preguiçosa)
+    A avaliação preguiçosa 
+    significa que um parâmetro real é avaliado 
+    apenas 
+    quando seu valor é necessário para avaliar a função. 
+
+    Então, se uma função tem dois parâmetros, 
+    mas em uma execução em particular da função 
+    o primeiro não é usado, 
+    o parâmetro real passado para tal execução não será avaliado. 
+
+    Além disso, 
+    se apenas uma parte de um parâmetro real deve ser avaliada para uma execução da função, 
+    o resto é deixado sem avaliação. 
+
+    Por fim, os parâmetros reais são avaliados apenas uma vez, 
+    se é que o são, 
+    mesmo se esse parâmetro real aparecer mais de uma vez em uma chamada a função. 
+
+    Conforme mencionado, 
+    a avaliação preguiçosa permite que alguém defina
+    estrtura de dados infinitas.
+      positivos = [0..]
+
+    member2 (m:x) n
+      | m < n      = member2 x n 
+      | m == n     = True
+      | otherwise  = False
+
+
+
+REFERÊNCIAS
+  https://github.com/malbarbo/na-lp-copl/blob/master/15-linguagens-de-programacao-funcional.md
+  https://en.wikipedia.org/wiki/Purely_functional_programming
+  https://lucchesi.com.br/8-linguagens-funcionais-para-aprender-em-2020/
+  https://www.youtube.com/watch?v=fPKMmJpAGWc

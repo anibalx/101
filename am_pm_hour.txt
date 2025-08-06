@@ -1,0 +1,13 @@
+O sistema horário de 12 horas 
+é uma convenção de medição de tempo 
+em que o dia se divide em dois períodos: 
+  ante meridiem (a.m.), antes do meio-dia, e 
+  post meridiem (p. m.), depois do meio-dia. 
+Cada período é constituído por doze horas e 
+a numeração começa no número 12 
+(utilizado tanto para representar a meia-noite 
+como o meio-dia) e 
+vai até ao 11
+
+
+https://en.wikipedia.org/wiki/12-hour_clock
